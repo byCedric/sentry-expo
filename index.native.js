@@ -1,8 +1,8 @@
 /* @flow */
-export * from '@sentry/browser';
+export * from '@sentry/react-native';
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
-import * as Sentry from '@sentry/browser';
+import * as Sentry from '@sentry/react-native';
 import { RewriteFrames } from '@sentry/integrations';
 
 /**
